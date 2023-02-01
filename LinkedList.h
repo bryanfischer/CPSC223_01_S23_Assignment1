@@ -26,12 +26,12 @@ class LinkedList{
 
         /**
          * Function:    Parameterized constructor
-         * Params:      Node object that is not null
+         * Params:      Node pointer
          * Return:      None
          * Description: Parameterized constructor for the Linked list class.
-         *              Sets the head and tail to nullptr, and size to 0.
+         *              Sets the head and tail to node, and size to 1.
          */
-        LinkedList(Node node);
+        LinkedList(Node *node);
 
         /**
          * Function:    removeByIndex
